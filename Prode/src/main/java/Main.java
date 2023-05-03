@@ -22,7 +22,7 @@ public class Main {
         Pronostico pronostico= new Pronostico();
         System.out.println("---------------------------------*********************--------------------------------");
         // la bandera primera liena permite considerar o no alprimer alinea del csv
-        pronostico.procesarData("E:/Estudio/UTN java/UTN-TP-integrador-Final/UTN-AP-TPI/Prode/src/data/pronostico.csv", ";", true,);
+        pronostico.procesarData("E:/Estudio/UTN java/UTN-TP-integrador-Final/UTN-AP-TPI/Prode/src/data/pronostico.csv", ";", true);
         //pronostico.procesarData("E:/Estudio/UTN java/UTN-TP-integrador-Final/UTN-AP-TPI/Prode/src/data/pronostico.csv", ";", false);
         System.out.println(pronostico.getData());
         VerificarPronostico verify=new VerificarPronostico(resultados.getData(),pronostico.getData());
