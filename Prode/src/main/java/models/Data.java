@@ -25,10 +25,8 @@ public class Data {
                 String[] registro = linea.split(separador);
                 this.data.add(registro);
             }
-
         }
-        //this.data= Arrays.asList(registro);
-        lineas.close();
+      lineas.close();
     }
     public ArrayList<String[]> getData() {
         return data;
