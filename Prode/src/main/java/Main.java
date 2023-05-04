@@ -27,14 +27,14 @@ public class Main {
             System.out.println("cantidad partidos en ronda "+ ronda +" : " + rondas.getDatos_ronda().get(ronda));
         }
         //System.out.println(rondas.getPartidos_ronda());
-        System.out.println("liena29");
+
       //  System.out.println(rondas.getRondas());
         for (String ronda : rondas.getRondas().keySet()) {
             System.out.println(ronda);
             HashMap<String, Partido> ron = rondas.getRondas().get(ronda);
             for (String r : ron.keySet()) {
-                System.out.println(ron.get(r).getGanador());
-//                System.out.println(ron.get(r).toString());
+//                System.out.println("ronda" + r + "-> "+ ron.get(r).getGanador());
+                System.out.println(ron.get(r).toString());
             }
         }
 

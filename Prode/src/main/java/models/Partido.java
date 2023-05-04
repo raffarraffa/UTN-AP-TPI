@@ -16,9 +16,30 @@ public class Partido {
         this.goles_equipo_2 = goles_equipo_2;
         this.ronda=ronda;
     }
-public ResultadoEnum getGanador(){
+
+    public String getEquipo1() {
+        return equipo1;
+    }
+
+    public String getEquipo2() {
+        return equipo2;
+    }
+
+    public int getGoles_equipo_1() {
+        return goles_equipo_1;
+    }
+
+    public int getGoles_equipo_2() {
+        return goles_equipo_2;
+    }
+
+    public int getRonda() {
+        return ronda;
+    }
+    public ResultadoEnum getGanador(){
         return ganador;
-}
+    }
+
     @Override
     public String toString() {
         return "Partido{" +
